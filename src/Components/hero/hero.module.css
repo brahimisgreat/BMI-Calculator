@@ -2,6 +2,9 @@
   width: 77rem;
   height: 46.0625rem;
   transform: translate(4.25rem, 2rem);
+  border: solid;
+  
+
 }
 .kidtainer {
   width: 61.125rem;
@@ -53,5 +56,50 @@
   border-radius: 16px;
   background: var(--Pure-White, #fff);
   box-shadow: 16px 32px 56px 0px rgba(143, 174, 207, 0.25);
-  
 }
+.calculator, .btnsBox, .inputBox, .result, .directions{
+    border: solid;
+    width: 500px;
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;    
+}
+.directions label{
+color: var(--Gunmetal, #253347);
+font-family: "Inter", sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -1.2px;
+}
+.btnsBox{
+    display: flex;
+    
+}
+.btnsinputBox{
+    width: 250px;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    gap: 15px;
+
+}
+.btnsinputBox label{
+    color: var(--Gunmetal, #253347);
+
+/* Body M (Bold) */
+font-family: "Inter", sans-serif;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 24px */
+}
+.inputBox{
+    display: flex;
+}
+

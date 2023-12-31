@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./hero.module.css";
 import logo from "../../../src/assets/images/logo.svg";
+import BmiCalculator from "./bmiCalculator";
 
 export default function Hero() {
   return (
@@ -20,9 +21,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className={classes.calculator}>
-       hello
-      </div>
+      <BmiCalculator />
     </div>
   );
 }

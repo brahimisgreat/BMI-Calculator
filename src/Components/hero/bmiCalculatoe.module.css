@@ -1,0 +1,53 @@
+.container {
+  width: 35.25rem;
+  border: solid;
+  position: relative;
+  padding: 2rem;
+}
+.headline {
+  color: var(--Gunmetal, #253347);
+  font-family: "inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.2px;
+  width: fit-content;
+}
+.Metric{
+    display: flex;
+    width: 500px;
+    border: solid;
+    justify-content:space-between;
+}
+.MetricInput{
+    border: solid;
+    width: 238px;
+}.MetricInput label{
+    color: var(--Gunmetal, #253347);
+
+/* Body M (Bold) */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 24px */
+}
+.inputs{
+    display: flex;
+    gap: 2rem;
+}
+.weight, .height{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.wInput, .hInput{
+    display: flex;
+
+    
+}
+input{
+    border: none;
+}
+
