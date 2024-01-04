@@ -1,8 +1,17 @@
 .container {
   width: 35.25rem;
-  border: solid;
   position: relative;
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+  bottom: 30rem;
+  left: 40rem;
+  border-radius: 16px;
+  background: var(--Pure-White, #FFF);
+  box-shadow: 16px 32px 56px 0px rgba(143, 174, 207, 0.25);
+  
 }
 .headline {
   color: var(--Gunmetal, #253347);
@@ -13,21 +22,21 @@
   line-height: normal;
   letter-spacing: -1.2px;
   width: fit-content;
+  margin: 0;
+  
 }
 .Metric{
     display: flex;
     width: 500px;
-    border: solid;
     justify-content:space-between;
 }
 .MetricInput{
-    border: solid;
     width: 238px;
 }.MetricInput label{
     color: var(--Gunmetal, #253347);
 
 /* Body M (Bold) */
-font-family: Inter;
+font-family: 'Inter';
 font-size: 16px;
 font-style: normal;
 font-weight: 600;
@@ -44,10 +53,20 @@ line-height: 150%; /* 24px */
 }
 .wInput, .hInput{
     display: flex;
+    border: none;
 
     
 }
 input{
     border: none;
+}
+h4{
+    margin: 0;
+}
+.talk{
+    padding: 32px;
+    height: auto;
+    border-radius: 16px 999px 999px 16px;
+    background: linear-gradient(90deg, #345FF6 0%, #587DFF 100%);
 }
 
