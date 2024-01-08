@@ -55,11 +55,8 @@ line-height: 150%; /* 24px */
     display: flex;
     border: none;
 
-    
 }
-input{
-    border: none;
-}
+
 h4{
     margin: 0;
 }
@@ -69,4 +66,15 @@ h4{
     border-radius: 16px 999px 999px 16px;
     background: linear-gradient(90deg, #345FF6 0%, #587DFF 100%);
 }
+h5{
+    color: blue;
+    position: relative;
+    right: 1.5rem;
+    font-size: 1rem;
+    
+}
+.talk, h3, .talk p {
+    color: white;
+}
+
 

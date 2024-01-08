@@ -13,8 +13,8 @@ export default function BmiCalculator() {
             <div className={classes.height}>
               <label>Height</label>
               <div className={classes.hInput}>
-                <input type='text' placeholder='0'></input>
-                <h5>kg</h5>   
+                <input type='text' placeholder='0' />
+                <h5>cm</h5>   
               </div>
             </div>
            <div className={classes.weight}>
