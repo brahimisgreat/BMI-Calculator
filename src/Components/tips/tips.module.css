@@ -1,4 +1,42 @@
 .container{
     position: relative;
-    ;
+    width: 1392px;
+    height: 402px;
+    top: 200px;
+    left: 9%;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+
+}
+.Box1, .Box2, .Box3{
+    width: 22.8125rem;
+    height: 14.625em;
+    opacity: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.boxbox1 h4, .boxbox2 h4, .boxbox3 h4{
+    color: var(--Gunmetal, #253347);
+
+    /* Heading M */
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.2px;
+}
+.boxbox1 p, .boxbox2 p, .boxbox3 p{
+    color: var(--Dark-Electric-Blue, #5E6E85);
+
+/* Body M */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
 }
